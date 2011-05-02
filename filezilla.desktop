@@ -1,0 +1,19 @@
+#Source: http://askubuntu.com/questions/35488/which-custom-unity-launchers-and-quicklists-do-you-use
+
+[Desktop Entry]
+Name=FileZilla
+GenericName=FTP client
+Comment=Download and upload files via FTP, FTPS and SFTP
+Exec=filezilla
+Terminal=false
+Icon=filezilla
+Type=Application
+Categories=Network;FileTransfer;
+Version=1.0
+X-Ayatana-Desktop-Shortcuts=Server1;
+
+[Server1 Shortcut Group]
+Name=FTP into test server 
+Exec=filezilla ftp://test:test@ftp.secureftp-test.com:21
+TargetEnvironment=Unity
+Comment=You'll want to change the "test:test" with your username/password respectively, and the "ftp.secureftp-test.com" with the domain of your ftp server
