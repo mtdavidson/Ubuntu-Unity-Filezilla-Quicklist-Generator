@@ -1,0 +1,4 @@
+Ubuntu Unity Filezilla Quicklist Generator
+------------------------------------------
+
+Python script for generating a filezilla quicklist based on the sitemanager.xml file for use with Ubuntu Unity.
